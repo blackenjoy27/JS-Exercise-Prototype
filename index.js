@@ -46,7 +46,7 @@ function Airplane(name) {
   }
 
   Person.prototype.eat = function(food){
-    if(this.stomach.length<11){
+    if(this.stomach.length<10){
       this.stomach.push(food);
     }
   }
